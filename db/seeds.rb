@@ -14,7 +14,7 @@ asset_4 = Asset.create({name: "Another Test"})
 test_data_1 = [
   {id:1,url:"/a/test-3ca2f5fd1aa2",name:"Test Bing"},
   {id:2, url:"/a/gfadfds",name:"Oh, this is a test!"},
-  {id:3,url:"/a/test-3ca2f5fd1aa2",name:"Test Bing"}
+  {id:1,url:"/a/test-3ca2f5fd1aa2",name:"Test Bing"}
 ].to_json
 
 asset_field = AssetField.create({asset: asset_1, data: test_data_1})
